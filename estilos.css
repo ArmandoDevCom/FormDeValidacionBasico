@@ -1,0 +1,85 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* Main */
+
+body{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    
+}
+
+.main-cotainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-form{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 35px;
+    transition: box-shadow 0.3s ease;  
+}
+
+.container-form:hover{
+    box-shadow: 5px 5px 10px rgba(46, 46, 46, 0.542);
+}
+
+
+.form-title{
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.form-check{
+    padding-top: 15px;
+}
+
+.form-data{
+    padding: 10px;
+}
+
+.form-label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.col-12{
+    padding: 10px;
+}
+
+/* Footer */
+
+.container-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.382);
+    padding: 20px;
+}
+
+.social-icon{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    
+}
+
+.form-container {
+    flex: 1;
+  }
+  
+.copyright{
+    color: white;
+    font-size: 12px;
+}
